@@ -1,8 +1,16 @@
 package dz1.Shop;
 
 public class Product {
-    private Integer cost; // Стоимость продукта
     private String title; // Название
+    private Integer cost; // Стоимость продукта
+
+    public Product(String title, Integer cost) {
+        this.title = title;
+        this.cost = cost;
+    }
+
+    public Product() {
+    }
 
     // Геттеры, сеттеры:
     public int getCost() {
@@ -19,5 +27,10 @@ public class Product {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    @Override
+    public String toString() {
+        return "{'" + title + "', стоимость " + cost + '}';
     }
 }
