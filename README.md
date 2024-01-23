@@ -23,3 +23,7 @@
 ## Урок 4. Зависимости в тестах
 
 ### У вас есть класс BookService, который использует интерфейс BookRepository для получения информации о книгах из базы данных. Ваша задача написать [unit-тесты для BookService](src/test/java/dz4/BookServiceTest.java), используя Mockito для создания мок-объекта BookRepository.
+
+## Урок 5. Другие виды тестирования
+
+### [Задание и решение](src/main/java/dz5/README.md)
